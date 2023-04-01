@@ -1,5 +1,10 @@
+import projeto.classes.dominio.Curso;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Curso curso01 = new Curso();
+
+        System.out.println(curso01);
     }
 }
